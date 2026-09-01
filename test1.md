@@ -1,9 +1,10 @@
 # awesome-frontier-dataset
+
 A curated collection of cutting-edge research, datasets, and benchmarks for long-horizon agents — empowering next-generation AI evaluation and training.
 
-### MATH
+### Math & General Reasoning
 
-[NaturalReasoning](https://huggingface.co/datasets/facebook/natural_reasoning)
+### [NaturalReasoning](https://huggingface.co/datasets/facebook/natural_reasoning)
 
 **NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions** is a large-scale general reasoning dataset released by Meta for training and evaluating advanced reasoning models.
 
@@ -17,16 +18,18 @@ A curated collection of cutting-edge research, datasets, and benchmarks for long
 
 NaturalReasoning is particularly useful as a large-scale source of diverse and naturally occurring reasoning problems for SFT, reasoning distillation, and synthetic post-training data generation.
 
-### Compute Science
+### Computer Science
 
-[OpenAI Frontier Evals](https://github.com/openai/frontier-evals)
+### [OpenAI Frontier Evals](https://github.com/openai/frontier-evals)
 
 A collection of frontier capability evaluations released by OpenAI, including software engineering and other complex real-world tasks.
 
 Notable evaluations include:
 
 * **SWE-Lancer** — Real-world freelance software engineering tasks with executable evaluation and economic-value grounding.
+
 * **PaperBench** — Evaluates AI agents on reproducing machine learning research papers.
+
 * **EVMbench** — Evaluation tasks related to smart contracts and Ethereum Virtual Machine development.
 
 ### [BAAI-TACO](https://modelscope.cn/datasets/BAAI/TACO)
@@ -41,8 +44,9 @@ Notable evaluations include:
 
 TACO is also frequently used as a seed problem source for synthetic reasoning datasets.
 
-### Optimizationand planning
+### Optimization and Planning
 
 ### STEM
-* MMMU-满血版R1蒸馏多模态Reasoning验证集 [ModelScope](https://www.modelscope.cn/datasets/modelscope/MMMU-Reasoning-Distill-Validation)
+
+* [MMMU Reasoning Distill Validation](https://www.modelscope.cn/datasets/modelscope/MMMU-Reasoning-Distill-Validation) — A multimodal reasoning validation dataset built on MMMU and augmented with reasoning trajectories distilled from the full DeepSeek-R1 model.
 
